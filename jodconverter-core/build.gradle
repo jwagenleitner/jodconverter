@@ -1,0 +1,11 @@
+version = '0.0.1'
+
+dependencies {
+    compile 'commons-io:commons-io:1.4'
+    compile 'org.openoffice:juh:3.2.1'
+    compile 'org.openoffice:ridl:3.2.1'
+    compile 'org.openoffice:unoil:3.2.1'
+    compile 'commons-cli:commons-cli:1.1'
+    compile 'org.hyperic:sigar:1.6.5.132'
+    compile 'org.json:json:20090211'
+}

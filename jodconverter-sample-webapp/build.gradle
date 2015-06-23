@@ -1,0 +1,12 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+version = '0.0.1'
+
+dependencies {
+    compile project(':jodconverter-core')
+
+    compile 'commons-io:commons-io:1.4'
+    compile 'commons-fileupload:commons-fileupload:1.2.1'
+    providedCompile 'javax.servlet:servlet-api:2.4'
+}
